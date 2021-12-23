@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Algorithm Visualiser</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script src="js/displaylines.js"></script>
+    <script src="js/selectionsort.js"></script>
+</head>
+<body>
+    <h1>Algorithm Visualiser</h1>
+    <label id="numberOfLinesLabel" for="numberOfLines"></label>
+    <input id="numberOfLines" type="range" value="25" min="25" max="200" step="1">
+
+    <label for="numberOfLines" id="speedLabel">Speed</label>
+    <input id="speed" type="range" value="5" min="1" max="10" step="1">
+
+    <button id="selectionSort">Selection Sort</button>
+    <button id="reverseSelectionSort">Reverse Selection Sort</button>
+    <hr>
+    <div id="container"></div>
+    </body>
+</html>

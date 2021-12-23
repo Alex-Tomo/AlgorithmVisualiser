@@ -1,0 +1,34 @@
+* {
+    background-color: #14171D;
+    color: #FFFFFF;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    width: 90vw;
+    height: 50vh;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    margin: auto;
+}
+
+.line {
+    justify-content: space-evenly;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+}
+
+button {
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    color: #14171D;
+    cursor: pointer;
+}
+
